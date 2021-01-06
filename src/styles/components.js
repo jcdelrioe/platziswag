@@ -69,23 +69,23 @@ export const StyledJumbo = styled.div`
   margin-bottom: 5rem;
   overflow: hidden;
   position: relative;
-  
-  div{
+
+  div {
     padding: 1rem;
     width: 35vw;
-  };
+  }
   & h2 {
     margin: 0;
     font-weight: 500;
     font-size: 1rem;
-  };
-  & small{
+  }
+  & small {
     font-weight: 100;
     font-size: 0.6rem;
-  };
-  & img{
+  }
+  & img {
     width: 35vw;
-  };
+  }
   ${above.medium`
     padding: 2rem 4rem;
     flex-direction: row;
@@ -116,7 +116,7 @@ export const StyledJumbo = styled.div`
     };
   `}
 
-  &:before{
+  &:before {
     content: " ";
     background-color: red;
     background-color: ${colors.darkBlue};
@@ -140,8 +140,7 @@ export const StyledJumbo = styled.div`
       height: 52vw;
       top: -66%;
     `}
-  };
-
+  } ;
 `
 
 export const StyledProducts = styled.div`
