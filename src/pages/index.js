@@ -24,7 +24,7 @@ export const query = graphql`
               wear
             }
           }
-          unit_amount
+          price: unit_amount
         }
       }
     }
